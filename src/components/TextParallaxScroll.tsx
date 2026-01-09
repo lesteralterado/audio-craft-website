@@ -1,4 +1,4 @@
-import React, { type ReactNode, useRef } from "react";
+import { type ReactNode, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 

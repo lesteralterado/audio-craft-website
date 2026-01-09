@@ -1,6 +1,6 @@
-import React, { type Dispatch, type SetStateAction, useState } from "react";
+import { type Dispatch, type SetStateAction, useState } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
 
 const SwipeCards = () => {
   const [cards, setCards] = useState<Card[]>(cardData);
