@@ -6,7 +6,7 @@ const MapComponent: React.FC = () => {
   const position: [number, number] = [10.126666, 123.563651]; // [latitude, longitude]
 
   return (
-    <div style={{ height: '400px', width: '100%' }}>
+    <section id="map" style={{ height: '400px', width: '100%' }}>
       <MapContainer center={position} zoom={13} style={{ height: '100%', width: '100%' }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -23,7 +23,7 @@ const MapComponent: React.FC = () => {
           </Popup>
         </Marker>
       </MapContainer>
-    </div>
+    </section>
   );
 };
 

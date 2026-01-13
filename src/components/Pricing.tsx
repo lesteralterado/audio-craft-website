@@ -42,7 +42,7 @@ const Pricing: React.FC = () => {
   ];
 
   return (
-    <section className="pricing-section py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+    <section id="pricing" className="pricing-section py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       <div className="container mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12">Choose Your Event Package</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
